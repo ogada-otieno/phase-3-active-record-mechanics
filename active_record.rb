@@ -20,6 +20,7 @@ ActiveRecord::Base.connection.execute(sql)
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 # Have the Student class inherit from ActiveRecord::Base
+# When using Active Record, our class names are singular and table names are plural.
 class Student < ActiveRecord::Base
 end
 
