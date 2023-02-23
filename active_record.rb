@@ -7,6 +7,7 @@ ActiveRecord::Base.establish_connection(
   database: "db/students.sqlite"
 )
 
+
 # Create a Students table
 sql = <<-SQL
   CREATE TABLE IF NOT EXISTS students (
